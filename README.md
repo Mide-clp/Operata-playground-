@@ -15,10 +15,11 @@ The DAG populates two tables: `users` and `transactions`. To ensure idempotency,
 
 - **User Table:** The `phoneNumber` column serves as a unique identifier, distinguishing between new and existing data during upsert. The `nTransaction` column is intentionally excluded from the table to maintain idempotency.
 
-- **Transaction Table:** Employing a primary key and a composite key (utilizing `requestTimestamp` `agentPhoneNumber` `externalId`) called `rowId`, this table enforces the insertion of new records only, preventing duplicates. The composite key is a MD5 hash value.
+- **Transaction Table:** 
+ a primary key and a composite key (utilizing `requestTimestamp` `agentPhoneNumber` `externalId`) called `rowId`, this table enforces the insertion of new records only, preventing duplicates. The composite key is a MD5 hash value.
 
 ## Project Data
-![Data](doc/data.png)
+![Data](https://github.com/Mide-clp/Operata-playground-/assets/93950989/1bd81f3a-cdea-4ae1-925e-432444556221)
 
 ### Successful DAG Run
 ![Successful DAG Run](doc/success_dag.png)
