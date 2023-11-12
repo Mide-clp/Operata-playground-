@@ -11,7 +11,7 @@
 pyvenv.cfg
 .venv
 .idea
-./test2/.env
+#./test2/.env
 pip-selfcheck.json
 
 ### VisualStudio template
