@@ -22,16 +22,16 @@ The DAG populates two tables: `users` and `transactions`. To ensure idempotency,
 ![Data](https://github.com/Mide-clp/Operata-playground-/assets/93950989/1bd81f3a-cdea-4ae1-925e-432444556221)
 
 ### Successful DAG Run
-![Successful DAG Run](doc/success_dag.png)
+![Successful DAG Run](./doc/success_dag.png)
 
 ### Failed DAG Run
-![Failed DAG Run](doc/failed_dag.png)
-![Slack Notification](doc/slack_dag_notify.png)
+![Failed DAG Run](./doc/failed_dag.png)
+![Slack Notification](./doc/slack_dag_notify.png)
 
 ### Transaction Data
-![Transaction Data](doc/data_transaction.png)
+![Transaction Data](./doc/data_transaction.png)
 
 ### User Data
-![User Data](doc/data_user.png)
+![User Data](./doc/data_user.png)
 
 Note: Ignore the double quotes in the data representation; each column adheres to its respective data type.
