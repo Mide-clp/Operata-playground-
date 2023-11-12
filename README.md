@@ -19,20 +19,20 @@ The DAG populates two tables: `users` and `transactions`. To ensure idempotency,
  a primary key and a composite key (utilizing `requestTimestamp` `agentPhoneNumber` `externalId`) called `rowId`, this table enforces the insertion of new records only, preventing duplicates. The composite key is a MD5 hash value.
 
 ## Project Data
-https://github.com/Mide-clp/Operata-playground-/assets/93950989/7e9aa737-69b0-497a-8d9b-5e7f84ad7e5b
+![Data](doc/assets/data.png)
 
 
 ### Successful DAG Run
-![Successful DAG Run](./doc/success_dag.png)
+![Successful DAG Run](./doc/assets/success_dag.png)
 
 ### Failed DAG Run
-![Failed DAG Run](./doc/failed_dag.png)
-![Slack Notification](./doc/slack_dag_notify.png)
+![Failed DAG Run](./doc/assets/failed_dag.png)
+![Slack Notification](./doc/assets/slack_dag_notify.png)
 
 ### Transaction Data
-![Transaction Data](./doc/data_transaction.png)
+![Transaction Data](./doc/assets/data_transaction.png)
 
 ### User Data
-![User Data](./doc/data_user.png)
+![User Data](./doc/assets/data_user.png)
 
 Note: Ignore the double quotes in the data representation; each column adheres to its respective data type.
