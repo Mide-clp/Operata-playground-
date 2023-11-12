@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+    scheduler:
+        volumes:
+        - /Users/apple/.aws:/usr/local/airflow/.aws:ro
+    webserver:
+        volumes:
+        - /Users/apple/.aws:/usr/local/airflow/.aws:ro
+    triggerer:
+        volumes:
+        - /Users/apple/.aws:/usr/local/airflow/.aws:ro
