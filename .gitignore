@@ -491,7 +491,13 @@ ipython_config.py
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
-
+__pycache__/
+*/**/__pycache__
+test2/include/sql/__pycache__
+test2/include/*/__pycache__
+test2/include/helpers/__pycache__
+test2/include/scripts/__pycache__
+astro
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid

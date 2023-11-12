@@ -3,7 +3,11 @@ This repository houses essential tests and data processing scripts. This project
 
 ## Test1
 This section encapsulates scripts dedicated to extracting CSV files from the local file system and seamlessly transferring them into a PostgreSQL database.
+### Transaction Data
+![Transaction Data](./doc/assets/test1_transaction.png)
 
+### User Data
+![User Data](./doc/assets/test1_user.png)
 ## Test2
 The second component orchestrates an Airflow DAG designed to execute a sequence of data operations. This DAG operates on a daily schedule, retrieving data from an S3 bucket, preprocessing it, and storing the results in a database.
 
