@@ -3,6 +3,11 @@
 .DS_Store # macOS specific ignore
 airflow_settings.yaml
 __pycache__/
+*/**/__pycache__
+include/sql/__pycache__
+include/*/__pycache__
+include/helpers/__pycache__
+include/scripts/__pycache__
 astro
 .venv
 airflow-webserver.pid
